@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+header{
+    height: 100vh;
+    background-image: url(../assets/imagenes/angel-jimenez.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 120px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+
+}
+
+.colorLetra{
+    color: white;
+}
+.sec1{
+    display: flex;
+    margin: 20px 80px;
+    justify-content: space-between;
+}
+.textos{
+    width: 40%;
+
+}
+
+.imagesMostrar{
+    height: 850px;
+    width: 40%;
+}
+.botones{
+    border: none; 
+    padding: 14px 28px; 
+    font-size: 16px;
+    border-radius: 5px; 
+    background-color: rgb(207, 53, 99);
+}
+
+.titulos{
+    background: linear-gradient(to right, red, blue);
+    -webkit-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+}
+
+.guitar{
+    height: 80vh;
+    background-image: url(../assets/imagenes/john-raptis.png);
+    background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.textoblanco{
+    color: white;
+    width: 40%;
+    justify-content: flex-end;
+}
+
+footer{
+
+    .right{
+        display: flex;
+        align-items: center ;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 1000px;
+        padding-left: 150px;
+        padding-top: 20px;
+        color: whitesmoke;
+        font-size: 10px;
+    }
+    
+    hr {
+        width: 1000px;
+        color: whitesmoke;
+    }
+    
+    .hrr {
+        padding-left: 150px;
+        width: 1170px;
+    }
+}
